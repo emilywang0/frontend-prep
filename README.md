@@ -5,7 +5,7 @@
 - [ ] Hooks (useEffect, useState)
 - [ ] Event Handling (onClick)
 - ✅ Conditional Rendering (ternary operations)
-- [ ] Props
+- [x] Props
 - ✅ Map
 - ✅ Filter
 - [ ] Promises + Fetch (use React w/ APIs)
