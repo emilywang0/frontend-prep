@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface ListGroupProps {
   items: string[];
@@ -8,8 +8,27 @@ interface ListGroupProps {
 }
 
 function ListGroup({ items, heading, onSelectItem }: ListGroupProps) {
-  // Hook
+  // useState hook:
+  // const [reactive value, setter] = useState()
+
   const [selectedIndex, setSelectedIndex] = useState(-1);
+
+  useEffect(() => {
+    alert("hello side effect!");
+
+    return () => alert("goodbye component!");
+  });
+
+  // will run each time state changes (DOM reloaded)
+  useEffect(() => {
+    // Effect code here
+    return () => {
+      // Cleanup code here (optional)
+    };
+    // dependencies at the end
+    // if any val in dependencies is changed, effect will re-run
+    // if empty: effect runs only once when component mounts
+  }, []);
 
   return (
     <>

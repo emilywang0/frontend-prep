@@ -2,15 +2,13 @@
 
 ## React:
 
-- [ ] Hooks (useEffect, useState)
-- [ ] Event Handling (onClick)
+- ✅ Hooks (useEffect, useState)
+- ✅ Event Handling (onClick)
 - ✅ Conditional Rendering (ternary operations)
-- [x] Props
+- ✅ Props
 - ✅ Map
 - ✅ Filter
 - [ ] Promises + Fetch (use React w/ APIs)
-
-- ✅ TODO: Watch https://www.youtube.com/watch?v=m55PTVUrlnA&ab_channel=PedroTech
 
 ## CSS:
 
