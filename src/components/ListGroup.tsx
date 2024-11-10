@@ -14,9 +14,8 @@ function ListGroup({ items, heading, onSelectItem }: ListGroupProps) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   useEffect(() => {
-    alert("hello side effect!");
-
-    return () => alert("goodbye component!");
+    // alert("hello side effect!");
+    // return () => alert("goodbye component!");
   });
 
   // will run each time state changes (DOM reloaded)

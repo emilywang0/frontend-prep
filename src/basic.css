@@ -1,0 +1,93 @@
+/* CSS Custom Properties (Variables) */
+:root {
+    --primary-color: black;
+    --secondary-color: black;
+    --padding: 1rem;
+}
+
+.container {
+    padding: var(--padding);
+    border: 1px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.relative-box {
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+}
+
+.units-ex {
+    font-size: 1.5rem;
+    width: 50vw;
+    height: 30vh;
+    margin: 20px auto;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.box:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+@keyframes slide-in {
+    from {
+        transform: translate(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.animated-box {
+    animation: slide-in 0.5s forwards;
+}
+

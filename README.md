@@ -8,7 +8,7 @@
 - ✅ Props
 - ✅ Map
 - ✅ Filter
-- [ ] Promises + Fetch (use React w/ APIs)
+- ✅ Promises + Fetch (use React w/ APIs)
 
 ## CSS:
 
@@ -16,12 +16,12 @@
 - [ ] Flexbox
 - [ ] Grid
 - [ ] Positioning (relative, absolute, fixed, sticky)
-- [ ] Units (px, em, rem, %, vw, vh)
+- ✅ Units (px, em, rem, %, vw, vh)
 
-- [ ] Media queries
-- [ ] Animations + Transitions
-- [ ] Pseudo-classes + Pseudo-elements (:hover, ::before)
-- [ ] Custom properties (CSS variables)
+- ✅ Media queries
+- ✅ Animations + Transitions
+- ✅ Pseudo-classes + Pseudo-elements (:hover, ::before)
+- ✅ Custom properties (CSS variables)
 
 ## Practice
 
