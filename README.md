@@ -12,10 +12,10 @@
 
 ## CSS:
 
-- [ ] CSS Box Model
-- [ ] Flexbox
-- [ ] Grid
-- [ ] Positioning (relative, absolute, fixed, sticky)
+- ✅ CSS Box Model
+- ✅ Flexbox
+- ✅ Grid
+- ✅ Positioning (relative, absolute, fixed, sticky)
 - ✅ Units (px, em, rem, %, vw, vh)
 
 - ✅ Media queries

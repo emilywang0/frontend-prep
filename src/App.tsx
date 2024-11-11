@@ -1,7 +1,7 @@
 import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
 import "./index.css";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 
 function App() {
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
@@ -10,11 +10,16 @@ function App() {
     console.log(item);
   };
   return (
-    <div className="page">
-      <Header />
-
-      <button className="button">Test!</button>
-    </div>
+    <>
+      <div className="container">
+        <button className="button">Test!</button>
+      </div>
+      <div className="flex-container">
+        <p>test</p>
+        <p> test2 </p>
+      </div>
+      <div className="grid-container"></div>
+    </>
   );
 }
 

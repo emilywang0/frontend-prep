@@ -4,6 +4,7 @@
     --padding: 10px;
 }
 
+
 .button {
     position: relative;
     left: 50%;
@@ -18,8 +19,24 @@
 }
 
 .container {
-    position: relative;
-    height: 100vh;
+   padding: var(--padding);
+   border: 1px solid black;
+   margin: 10px;
+   background-color: red;
+   box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 
