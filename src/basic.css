@@ -105,3 +105,10 @@
     background: rgba(0,0,0, 0.5);
     opacity: 10%;
 }
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

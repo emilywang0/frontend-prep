@@ -36,7 +36,8 @@ function CardList({ items }) {
   );
 }
 
-function Card({ title, desc }) {
+function Card(props) {
+  const { title, desc } = props;
   return (
     <div>
       <h1>{title}</h1>
