@@ -22,7 +22,7 @@ export default function Fruit() {
     setSearchTerm(e.target.value);
   };
 
-  const handleCaseSensitive = (e) => {
+  const handleCaseSensitive = () => {
     setCaseSensitive(!caseSensitive);
   };
 
@@ -40,11 +40,17 @@ export default function Fruit() {
         type="checkbox"
         id="case-sensitive"
         onChange={handleCaseSensitive}
+        checked={caseSensitive}
       />
-      <label for="case-sensitive">Case Sensitive? </label>
-      <input type="text" placeholder="Search here..." onChange={handleSearch} />
+      <label htmlFor="case-sensitive">Case Sensitive? </label>
+      <input
+        type="text"
+        placeholder="Search here..."
+        onChange={handleSearch}
+        value={searchTerm}
+      />
       ;
-      {filteredFruits.length == 0 ? (
+      {filteredFruits.length === 0 ? (
         <p> No fruits found! </p>
       ) : (
         filteredFruits.map((fruit) => {
