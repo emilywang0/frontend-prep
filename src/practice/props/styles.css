@@ -1,0 +1,10 @@
+
+  .btn {
+    width: 100%;
+    background-color: blue;
+  }
+  
+  .btn-active {
+    background-color: red;
+  }
+  
